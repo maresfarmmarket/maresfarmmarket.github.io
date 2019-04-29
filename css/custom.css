@@ -7,12 +7,12 @@ body { background: #ADC299; }
 	border-left: 4px solid #909F81;
 	border-right: 4px solid #909F81;
 	}
-/*Links 
+/*Links
 ------------------------------------------------------------ */
 #content a:link, #content a:visited { color: #909f81; }
 #sidebar a:link, #sidebar a:visited { color: #909f81; }
 h1#title a:hover, div#title a:hover { color: #909f81; }
-#nav .page_item a:hover { 
+#nav .page_item a:hover {
   color: #909f81;
 	border-top: 4px solid #909f81;
 	}
@@ -26,7 +26,7 @@ h1#title a:hover, div#title a:hover { color: #909f81; }
 .highlight-box { background: #909f81;	}
 .post-footer a:hover { color: #909f81; }
 #footer a:hover { color: #909f81; }
-/*Hover 
+/*Hover
 ------------------------------------------------------------ */
 #content .entry a:hover { color: #909f81; }
 #wrapper #sidebar a:hover { color: #909f81; }
@@ -34,7 +34,7 @@ h1#title a:hover, div#title a:hover { color: #909f81; }
 ------------------------------------------------------------ */
 .comments a:hover { background: url(../images/comments-bubble.gif) no-repeat 0 .4em; }
 ul li.widget ul li a:hover { background: url(../images/list-item.gif) no-repeat 0 .35em; }
-  
+
 /*Reset Specific Link Colors
 ------------------------------------------------------------ */
 #content .post-header h1 a:link, #content .post-header h1 a:visited, #content .post-header h2 a:link, #content .post-header h2 a:visited  { color: #444; }

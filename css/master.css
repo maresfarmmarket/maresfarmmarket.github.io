@@ -1,24 +1,4 @@
-/*	
-	READ THIS PLEASE!!
-	
-	You DO NOT want to make edits to this file.
-	If you make edits to this file your layout will break 
-	when you upgrade the theme.
-	
-	Instead add your custom CSS to the style.css file
-    in a Child Theme. See this tutorial for more details: 
-    
-    http://themes.jestro.com/vigilance/easy-upgrading-wordpress-child-themes/
-    
-    Any new styles you add to the style.css in your Child Theme
-    will automatically override this imported stylesheet.  
-	
-	This will also make your life a whole
-	lot easier when it comes time to upgrade the theme.
-*/
-
-
-/*Body & Links 
+/*Body & Links
 ------------------------------------------------------------ */
 body {
 	font-size: 62.5%;
@@ -39,13 +19,13 @@ a:hover {
 	margin: 0 auto;
 	text-align: left;
 	}
-#content{ 
-	float: left; 
+#content{
+	float: left;
 	width: 600px;
 	padding: 20px 30px 20px 0;
 	}
-#sidebar { 
-	float: right; 
+#sidebar {
+	float: right;
 	width: 300px;
   padding-bottom: 20px;
 	}
@@ -54,9 +34,9 @@ a:hover {
 	width: 140px;
 	}
 .spad { padding-right: 20px; }
-#footer { 
+#footer {
 	clear: both;
-	padding-top: 5px; 
+	padding-top: 5px;
 	border-top: 1px solid #ddd;
 	}
 .clear:after, li.comment:after { content: "."; display: block; height: 0; clear: both; visibility: hidden;}
@@ -145,8 +125,8 @@ h1#title a:hover, div#title a:hover { color: #772124; text-decoration: none; }
 	border-bottom: 4px double #dddddd;
 	padding-bottom: 7px;
 	}
-.post-header h1, .post-header h2 { 
-  font-size: 2.6em; 
+.post-header h1, .post-header h2 {
+  font-size: 2.6em;
   line-height: 1.1em;
   }
 .post-header h1 a:link, .post-header h1 a:visited,.post-header h2 a:link, .post-header h2 a:visited  { color: #444; }
@@ -196,8 +176,8 @@ h1#title a:hover, div#title a:hover { color: #772124; text-decoration: none; }
 	font-style: normal;
 	}
 .meta a:hover { color: #772124; }
-.tags { 
-	float: right; 
+.tags {
+	float: right;
   width: 400px;
   text-align: right;
 	font-style: italic;
@@ -210,11 +190,11 @@ h1#title a:hover, div#title a:hover { color: #772124; text-decoration: none; }
 	font-size: 1.3em;
 	padding: 15px 0 5px 0;
 	}
-.entry h3 { 
+.entry h3 {
   padding-top: 10px;
   font-size: 1em;
   }
-.entry h4 { 
+.entry h4 {
   padding-top: 10px;
   font-size: .9em;
   }
@@ -225,7 +205,7 @@ pre {
   background-color: #E9EBD9;
   color: #000;
   }
-code { 
+code {
   padding: 2px 3px;
   font: 1.1em Consolas, Courier New, sans-serif;
   background-color: #E9EBD9;
@@ -280,12 +260,12 @@ blockquote {
   }
 .entry .highlight-box ul li {
   font-size: 1.1em;
-  background: url(../images/list-square.gif) no-repeat 0 .4em; 
+  background: url(../images/list-square.gif) no-repeat 0 .4em;
    }
-.entry .highlight-box h2, .entry .highlight-box h3, .entry .highlight-box h4 { 
- margin: 0; 
+.entry .highlight-box h2, .entry .highlight-box h3, .entry .highlight-box h4 {
+ margin: 0;
  padding: 0;
- color: #fff; 
+ color: #fff;
  }
 .highlight-box h2 { text-transform: uppercase; }
 .entry ul, .c-body ul {
@@ -302,9 +282,9 @@ blockquote {
 	list-style-position: inside;
 	margin: 0 0 10px 10px;
 	}
-.entry ol li ol li, .c-body ol li ol li { 
+.entry ol li ol li, .c-body ol li ol li {
     font-size: .9em;
-    list-style-type: lower-roman; 
+    list-style-type: lower-roman;
     }
 .entry ol li, .c-body ol li {
 	margin: 5px 0 0 0;
@@ -346,9 +326,9 @@ img.archive-comment {
   float: right;
   margin: 0 .5em .5em 0;
   }
-.entries { 
+.entries {
   font-size: 1.3em;
-  clear: both; 
+  clear: both;
   }
 .entries ul {
 	margin: 0;
@@ -384,13 +364,13 @@ img.archive-comment {
   margin-right: .5em;
 	width: 3em;
   color: #666;
-	}	
+	}
 /*Sidebar
 ------------------------------------------------------------ */
 #sidebar-image { padding-top: 20px; }
-#sidebar-image { font-size: 1.3em; } 
-#sidebar-image p { 
-	margin-bottom: 15px; 
+#sidebar-image { font-size: 1.3em; }
+#sidebar-image p {
+	margin-bottom: 15px;
 	line-height: 1.6em;
 	}
 div.textwidget p {
@@ -410,13 +390,13 @@ ul li.widget ul {
 	margin: 0;
 	font-size: 1.4em;
 	}
-ul li.widget ul li ul { 
+ul li.widget ul li ul {
   margin-left: 5px;
-  font-size: 1em; 
+  font-size: 1em;
   }
-ul li.widget ul li { 
+ul li.widget ul li {
 	padding: 8px 0 6px 0;
-	border-bottom: 1px solid #dddddd; 
+	border-bottom: 1px solid #dddddd;
 	}
 ul li.widget ul li ul li { border-bottom: none; }
 ul li.widget ul li a {
@@ -448,16 +428,16 @@ ul li.widget ul#recentcomments li a {
   padding: 0 0 0 25px;
   background: url(../images/mail-icon.png) no-repeat 0 .4em;
   }
-#rss-feed a.twitter {	
+#rss-feed a.twitter {
 	margin-right: 0;
-	padding-left: 19px; 
-	background: url(../images/twitter-icon.png) no-repeat 0 .15em; 
+	padding-left: 19px;
+	background: url(../images/twitter-icon.png) no-repeat 0 .15em;
 	}
 /*Search Box
 ---------------------------------------*/
 #search_form input { margin: 10px 0 0 0; }
-#search_form input { 
-  padding: 4px 2px; 
+#search_form input {
+  padding: 4px 2px;
   width: 132px;
   border: 2px solid #acacac;
   border-bottom: 1px solid #ccc;
@@ -570,7 +550,7 @@ input#author, input#email, input#url { width: 350px; }
 form#commentform input:focus, form#commentform textarea:focus { background: #fff; }
 form#commentform input#submit {
   padding: 5px;
-  width: 150px; 
+  width: 150px;
   }
 form#commentform p.guidelines {
   font-size: .8em;
