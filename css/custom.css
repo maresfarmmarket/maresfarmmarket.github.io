@@ -1,0 +1,51 @@
+/*Background
+------------------------------------------------------------ */
+body { background: #ADC299; }
+#wrapper{
+	background: #fff;
+	padding: 0 20px 10px 20px;
+	border-left: 4px solid #909F81;
+	border-right: 4px solid #909F81;
+	}
+/*Links 
+------------------------------------------------------------ */
+#content a:link, #content a:visited { color: #909f81; }
+#sidebar a:link, #sidebar a:visited { color: #909f81; }
+h1#title a:hover, div#title a:hover { color: #909f81; }
+#nav .page_item a:hover { 
+  color: #909f81;
+	border-top: 4px solid #909f81;
+	}
+#nav .current_page_item a:link, #nav .current_page_item a:visited, #nav .current_page_item a:hover, #nav .current_page_parent a:link, #nav .current_page_parent a:visited, #nav .current_page_parent a:hover, #nav .current_page_ancestor a:link, #nav .current_page_ancestor a:visited, #nav .current_page_ancestor a:hover {
+	color: #909f81;
+	border-top: 4px solid #909f81;
+	}
+.post-header h1 a:hover, .post-header h2 a:hover { color: #909f81; }
+.comments a:hover { color: #909f81; }
+.meta a:hover { color: #909f81; }
+.highlight-box { background: #909f81;	}
+.post-footer a:hover { color: #909f81; }
+#footer a:hover { color: #909f81; }
+/*Hover 
+------------------------------------------------------------ */
+#content .entry a:hover { color: #909f81; }
+#wrapper #sidebar a:hover { color: #909f81; }
+  /*Hide hover colors on comment images and sidebar menu images
+------------------------------------------------------------ */
+.comments a:hover { background: url(../images/comments-bubble.gif) no-repeat 0 .4em; }
+ul li.widget ul li a:hover { background: url(../images/list-item.gif) no-repeat 0 .35em; }
+  
+/*Reset Specific Link Colors
+------------------------------------------------------------ */
+#content .post-header h1 a:link, #content .post-header h1 a:visited, #content .post-header h2 a:link, #content .post-header h2 a:visited  { color: #444; }
+#content .post-header h1 a:hover, #content .post-header h2 a:hover { color: #909f81; }
+#content .comments a { color: #757575;	}
+#content .comments a:hover { color: #909f81; }
+#content .meta a:link, #content .meta a:visited { color: #666; }
+#content .meta a:hover { color: #909f81; }
+#content .post-footer a:link, #content .post-footer a:visited { color: #333; }
+#content .c-permalink a:link, #content .c-permalink a:visited { color: #c1c1c1; }
+#content .reply a:link, #reply .c-permalink a:visited { color: #c1c1c1; }
+#content .reply a:hover { color: #909f81; }
+#footer a:link, #footer a:visited { color: #666; }
+#footer a:hover { color: #909f81; }
